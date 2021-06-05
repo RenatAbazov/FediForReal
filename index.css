@@ -4,10 +4,10 @@ div {
 @media all and (orientation:portrait) {
   .eraLogo{
     animation: rotation 20s infinite linear;
-    width: 100%;
+    width: 80%;
   }
   .comingSoon {
-    width: 100%;
+    width: 80%;
   }
 }
 
