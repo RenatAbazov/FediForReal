@@ -9,7 +9,6 @@ div {
 .eraLogo{
   animation: rotation 20s infinite linear;
   width: 100%;
-  max-width: 500px;
 }
 
 @keyframes rotation {
