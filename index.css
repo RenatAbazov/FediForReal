@@ -1,6 +1,10 @@
 div {
   text-align: center;
 }
+a{
+  text-decoration: none;
+}
+
 
 @media all and (orientation:portrait) {
   .eraLogo{
@@ -10,16 +14,24 @@ div {
   .comingSoon {
     width: 80%;
   }
+  .smallLogos{
+    width: 50px;
+    margin: 0 20px;
+  }
 }
 
 @media all and (orientation:landscape)  {
   .eraLogo{
     animation: rotation 20s infinite linear;
-    width: 500px;
+    width: 450px;
   }
   .comingSoon {
     padding-right: 15%;
     height: 200px;
+  }
+  .smallLogos{
+    width: 30px;
+    margin: 0 10px;
   }
 }
 
