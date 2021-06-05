@@ -1,7 +1,7 @@
 div {
   text-align: center;
 }
-@media (max-width: 500px) {
+@media (orientation:portrait) {
   .eraLogo{
     animation: rotation 20s infinite linear;
     width: 100%;
