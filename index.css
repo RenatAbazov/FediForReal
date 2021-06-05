@@ -1,15 +1,27 @@
 div {
   text-align: center;
 }
+@media (max-width: 500px) {
+  .eraLogo{
+    animation: rotation 20s infinite linear;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 500px) {
+  .eraLogo{
+    animation: rotation 20s infinite linear;
+    width: 500px;
+  }
+}
+
 
 .comingSoon {
   padding-right: 15%;
 }
 
-.eraLogo{
-  animation: rotation 20s infinite linear;
-  width: 500px;
-}
+
 
 @keyframes rotation {
   from {
