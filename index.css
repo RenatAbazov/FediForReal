@@ -11,6 +11,7 @@ a{
   {
     max-width: 100%;
     overflow-x: hidden;
+    background-color: coral;
   }
 
   .eraLogo{
@@ -27,6 +28,9 @@ a{
 }
 
 @media all and (orientation:landscape)  {
+  body{
+    background-color: coral;
+  }
   .eraLogo{
     animation: rotation 20s infinite linear;
     width: 450px;
