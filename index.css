@@ -17,11 +17,14 @@ a{
   .eraLogo{
     animation: rotation 20s infinite linear;
     width: 80%;
+    z-index: -1;
+    position: relative;
   }
   .comingSoon {
     width: 80%;
   }
   .smallLogos{
+    position: relative;
     width: 70px;
     margin: 20px 30px;
     z-index: 1;
@@ -35,6 +38,8 @@ a{
   .eraLogo{
     animation: rotation 20s infinite linear;
     width: 450px;
+    z-index: -1;
+    position: relative;
   }
   .comingSoon {
     padding-right: 15%;
@@ -44,6 +49,7 @@ a{
     width: 30px;
     margin: 0 10px;
     z-index: 1;
+    position: relative;
   }
 }
 
